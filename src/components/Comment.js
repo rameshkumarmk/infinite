@@ -7,7 +7,7 @@ function Comment({item: { guid, title, description, permaLink, StoryImage }}) {
     <div className="card shadow-sm w-100" style={{ minHeight: 225 }}>
       <div className="card-body">
         <h5 className="card-title text-left h4"> 
-        <a href={permaLink.web} className="title" target="_blank"> {title}</a>
+        <a href={permaLink.web} className="title" rel="noreferrer" target="_blank"> {title}</a>
         </h5>
      
        <img alt="Dinamalar Tamil News" className="imgfit" src={StoryImage}/>
