@@ -10,7 +10,7 @@ function Comment({item: { guid, title, description, permaLink, StoryImage }}) {
         <a href={permaLink.web} className="title" target="_blank"> {title}</a>
         </h5>
      
-       <img className="imgfit" src={StoryImage}/>
+       <img alt="Dinamalar Tamil News" className="imgfit" src={StoryImage}/>
         <p className="card-text">{description}</p>
         <hr/>
         <p className="card-text text-center">Id No: {guid}</p>
